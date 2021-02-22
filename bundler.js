@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 "use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
@@ -63,4 +64,3 @@ function generateCode() {
 var entry = path.resolve('./', process.argv[2] || 'index.js');
 collectCodeAndDeps(entry);
 fs.writeFileSync(path.resolve('./', 'bundle.js'), generateCode());
-// console.log('result', depRelation)

@@ -1,10 +1,10 @@
 {
   "name": "javascript-bundler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "bundler.js",
   "scripts": {
-    "build": "ts-node bundler.ts"
+    "build": "tsc"
   },
   "bin": {
     "bundle": "bundler.js"
